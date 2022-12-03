@@ -3,3 +3,23 @@ body {
   margin: 0;
   padding: 0;
 }
+
+#canvas {
+  display: flex;
+}
+
+#canvas > div {
+  flex: 1;
+}
+
+#mainCanvas {
+  border: 2px solid black;
+  height: 500px;
+  margin: 20px;
+}
+
+#coCanvas {
+  border: 2px solid red;
+  height: 500px;
+  margin: 20px;
+}
