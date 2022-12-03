@@ -14,12 +14,14 @@ body {
 
 #mainCanvas {
   border: 2px solid black;
-  height: 500px;
   margin: 20px;
+  width: 800px;
+  height: 500px;
 }
 
 #coCanvas {
   border: 2px solid red;
-  height: 500px;
   margin: 20px;
+  width: 800px;
+  height: 500px;
 }
