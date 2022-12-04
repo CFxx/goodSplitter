@@ -11,15 +11,26 @@
     <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script>
     <script src="canvas.js"></script>
     <script src="point.js"></script>
+    <script src="line.js"></script>
     <script src="index.js"></script>
     <div id="canvas">
       <div>
         <h1>Main Canvas</h1>
+        <div class="action_menu">
+          <button type="button" id='main_canvas_selection'>Selection</button>
+          <button type="button" id='main_canvas_point'>Point</button>
+          <button type="button" id='main_canvas_line'>Line</button>
+        </div>
         <div id="mainCanvas">
         </div>
       </div>
       <div>
         <h1>Co Canvas</h1>
+        <div class="action_menu">
+          <button type="button" id='co_canvas_selection'>Selection</button>
+          <button type="button" id='co_canvas_point'>Point</button>
+          <button type="button" id='co_canvas_line'>Line</button>
+        </div>
         <div id="coCanvas">
         </div>
       </div>

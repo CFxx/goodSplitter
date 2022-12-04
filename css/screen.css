@@ -11,17 +11,22 @@ body {
 #canvas > div {
   flex: 1;
 }
+#canvas > div > h1 {
+  margin-left: 20px;
+}
 
 #mainCanvas {
   border: 2px solid black;
   margin: 20px;
-  width: 800px;
   height: 500px;
 }
 
 #coCanvas {
   border: 2px solid red;
   margin: 20px;
-  width: 800px;
   height: 500px;
+}
+
+.action_menu {
+  margin-left: 20px;
 }
